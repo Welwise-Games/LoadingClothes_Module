@@ -1,0 +1,22 @@
+{
+    "name": "WelwiseLoadingClothesClientModule",
+    "rootNamespace": "",
+    "references": [
+        "GUID:97fd6966e603c0f40bc6659f770acf1a",
+        "GUID:83c96ec08087f464d9b546594a955bb0",
+        "GUID:5c6184cbae34e72478e19ee3a10e88f0",
+        "GUID:b348fe951f0f74f479ae473b84c45c1e"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
