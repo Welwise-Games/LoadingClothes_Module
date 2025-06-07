@@ -10,13 +10,13 @@ namespace WelwiseLoadingClothesModule.Runtime.Scripts.Client.Scripts
 {
     public static class ClothesLoadingTools
     {
-        public static EquippedItemsData GetEquippedItemsDataFromMetaverse(this IPlayerData playerData) =>
+        public static ClientEquippedItemsData GetEquippedItemsDataFromMetaverse(this IPlayerData playerData) =>
             playerData.MetaverseData.GetString(
                 ClothesSharedTools
                     .EquippedItemsDataFieldNameForMetaverseSavings, new ClientEquippedItemsData(
                     CollectionTools.ToList<ItemCategory>()
                         .Where(category => category is not ItemCategory.All and not ItemCategory.Color)
                         .Select(category => new EquippedItemData(null, new Dictionary<int, float>(), category))
-                        .ToList()).GetJsonSerializedObjectWithoutNulls()).GetDeserializedWithoutNulls<EquippedItemsData>();
+                        .ToList()).GetJsonSerializedObjectWithoutNulls()).GetDeserializedWithoutNulls<ClientEquippedItemsData>();
     }
 }
