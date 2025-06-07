@@ -6,7 +6,7 @@ using WelwiseGamesSDK.Shared;
 using WelwiseSharedModule.Runtime.Shared.Scripts;
 using WelwiseSharedModule.Runtime.Shared.Scripts.Tools;
 
-namespace WelwiseLoadingClothesModule.Runtime.Scripts.Client.Scripts
+namespace WelwiseLoadingClothesModule.Runtime.Client.Scripts
 {
     public static class ClothesLoadingTools
     {
