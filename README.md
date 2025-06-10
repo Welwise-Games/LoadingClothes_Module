@@ -4,5 +4,4 @@
 
 Гайд по внедрению в проект:
 
-1. Загрузите shared модуль (https://github.com/Welwise-Games/ClothesShared_Module).
-2. Создайте контроллер смены одежды (в readme shared модуля написано как), передав данные через вызов sdk.PlayerData.GetEquippedItemsDataFromMetaverse();
+Создайте контроллер смены одежды (в readme shared модуля написано как), передав данные через вызов sdk.PlayerData.GetEquippedItemsDataFromMetaverse();
