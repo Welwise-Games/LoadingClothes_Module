@@ -2,11 +2,10 @@
     "name": "WelwiseLoadingClothesClientModule",
     "rootNamespace": "",
     "references": [
-  "dependencies": {
-    "com.welwise.sharedmodule": "https://github.com/Welwise-Games/Shared_Module",
-    "com.welwise.sdk": "https://github.com/Welwise-Games/WelwiseGamesSDK",
-    "com.welwise.clothessharedmodule": "https://github.com/Welwise-Games/ClothesShared_Module"
-  }
+        "WelwiseGamesSDK",
+        "WelwiseClothesSharedClientModule",
+        "WelwiseSharedSharedModule",
+        "WelwiseClothesSharedSharedModule"
     ],
     "includePlatforms": [
         "Editor",
