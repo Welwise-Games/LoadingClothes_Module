@@ -1,8 +1,13 @@
 {
   "name": "com.welwise.loadingclothesmodule",
   "displayName": "Loading Clothes Module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2022.3",
+    "dependencies": {
+    "com.welwise.sharedmodule": "https://github.com/Welwise-Games/Shared_Module",
+    "com.welwise.sdk": "https://github.com/Welwise-Games/WelwiseGamesSDK",
+    "com.welwise.clothessharedmodule": "https://github.com/Welwise-Games/ClothesShared_Module"
+  },
   "description": "",
   "keywords": [
     "clothes",
