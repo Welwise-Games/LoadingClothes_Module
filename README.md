@@ -7,4 +7,4 @@
 <b>Код</b><br>
 Если класс пишется с маленькой буквы, значит имеется ввиду название инстанса. 
 
-Создайте контроллер смены одежды (в readme shared модуля написано как), передав данные через вызов sdk.PlayerData.GetEquippedItemsDataFromMetaverse();
+Создайте контроллер смены одежды (в readme clothes shared модуля написано как), передав данные через вызов sdk.PlayerData.GetEquippedItemsDataFromMetaverse();
