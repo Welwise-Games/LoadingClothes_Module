@@ -8,7 +8,7 @@ namespace WelwiseLoadingClothesModule.Runtime.Client.Scripts.Example
 {
     public class ClothesLoader : MonoBehaviour
     {
-        [SerializeField] private PlayerColorableClothesViewSerializableComponents _playerColorableClothesViewSerializableComponents;
+        [SerializeField] private ColorableClothesViewSerializableComponents colorableClothesViewSerializableComponents;
 
         public async void Start()
         {
@@ -19,7 +19,7 @@ namespace WelwiseLoadingClothesModule.Runtime.Client.Scripts.Example
             
             Debug.Log(1);
 
-            new ClothesEntryPoint().OnCreatePlayerAsync(_playerColorableClothesViewSerializableComponents,
+            new ClothesEntryPoint().OnCreatePlayerAsync(colorableClothesViewSerializableComponents,
                 sdk.PlayerData.GetEquippedItemsDataFromMetaverse());
             
             Debug.Log("Clothes loaded");

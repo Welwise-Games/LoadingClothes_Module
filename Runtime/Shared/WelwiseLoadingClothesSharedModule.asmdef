@@ -1,0 +1,17 @@
+{
+    "name": "WelwiseLoadingClothesSharedModule",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b348fe951f0f74f479ae473b84c45c1e",
+        "GUID:5c6184cbae34e72478e19ee3a10e88f0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

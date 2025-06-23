@@ -5,7 +5,8 @@
         "WelwiseGamesSDK",
         "WelwiseClothesSharedClientModule",
         "WelwiseSharedSharedModule",
-        "WelwiseClothesSharedSharedModule"
+        "WelwiseClothesSharedSharedModule",
+        "WelwiseLoadingClothesSharedModule"
     ],
     "includePlatforms": [
         "Editor",
