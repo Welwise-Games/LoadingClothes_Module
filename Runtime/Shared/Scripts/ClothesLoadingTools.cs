@@ -3,7 +3,7 @@ using System.Linq;
 using WelwiseClothesSharedModule.Runtime.Shared.Scripts;
 using WelwiseSharedModule.Runtime.Shared.Scripts.Tools;
 
-namespace WelwiseLoadingClothesModule.Runtime.Shared.Scripts
+namespace MainHub.Modules.WelwiseLoadingClothesModule.Runtime.Shared.Scripts
 {
     public static class ClothesLoadingTools
     {
