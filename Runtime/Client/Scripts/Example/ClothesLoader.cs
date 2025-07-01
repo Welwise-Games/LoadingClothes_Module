@@ -3,6 +3,7 @@ using WelwiseClothesSharedModule.Runtime.Client.Scripts;
 using WelwiseClothesSharedModule.Runtime.Client.Scripts.Example;
 using WelwiseGamesSDK;
 using WelwiseGamesSDK.Shared;
+using WelwiseSharedModule.Runtime.Shared.Scripts.Loading;
 
 namespace WelwiseLoadingClothesModule.Runtime.Client.Scripts.Example
 {
@@ -12,16 +13,15 @@ namespace WelwiseLoadingClothesModule.Runtime.Client.Scripts.Example
 
         public async void Start()
         {
-            Debug.Log(0);
-            
             var sdk = WelwiseSDK.Construct().AsTransient();
             await sdk.InitializeAsync();
-            
-            Debug.Log(1);
 
-            new ClothesEntryPoint().OnCreatePlayerAsync(colorableClothesViewSerializableComponents,
+            var assetsLoader = AssetsLoaderTools.GetAssetLoader();
+
+            new ClothesEntryPoint(new ItemsViewConfigsProviderService(assetsLoader), assetsLoader).OnCreatePlayerAsync(
+                colorableClothesViewSerializableComponents,
                 sdk.PlayerData.GetEquippedItemsDataFromMetaverse());
-            
+
             Debug.Log("Clothes loaded");
         }
     }
